@@ -27,6 +27,7 @@ module.exports = {
 	],
 	plugins: ['react', 'flowtype'],
 	rules: {
+		 "prettier/prettier": ["error", { "endOfLine": "auto" }] 
 		'react/react-in-jsx-scope': 'off',
 		'no-unused-vars': 'warn',
 		'no-var': 'warn',
